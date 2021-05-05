@@ -1,0 +1,51 @@
+.main {
+  background-color: black;
+  width: 300px;
+  height: 400px;
+}
+
+.content {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.yellow {
+  background-color: #fd9402 !important;
+}
+
+.grey {
+  background-color: grey !important;
+}
+
+.button div div {
+  background-color: #3f3f46; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 30px;
+}
+
+.display {
+  height: 30px;
+  //   width: 200px;
+  margin: 10px 20px;
+  text-align: right;
+}
+
+.result {
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.zero {
+  padding: 20px 50px !important;
+  text-align: left !important;
+}

@@ -1,0 +1,43 @@
+<p>calculator works!</p>
+
+<div class="main">
+  <div class="content">
+    <div id="result" class="display">
+      <div class="result">{{ result }}</div>
+    </div>
+
+    <div class="button">
+      <div class="row">
+        <div id="ac" (click)="onAC()" class="grey">AC</div>
+        <div id="neg" (click)="onNeg()" class="grey">+/-</div>
+        <div id="mod" (click)="onOperator('%')" class="grey">%</div>
+        <div id="division" (click)="onOperator('/')" class="yellow">/</div>
+      </div>
+      <div class="row">
+        <div id="seven" (click)="onDigitClick('7')" class="feat">7</div>
+        <div id="eight" (click)="onDigitClick('8')" class="feat">8</div>
+        <div id="nine" (click)="onDigitClick('9')" class="feat">9</div>
+        <div id="multiplication" (click)="onOperator('x')" class="yellow">
+          X
+        </div>
+      </div>
+      <div class="row">
+        <div id="four" (click)="onDigitClick('4')" class="feat">4</div>
+        <div id="five" (click)="onDigitClick('5')" class="feat">5</div>
+        <div id="six" (click)="onDigitClick('6')" class="feat">6</div>
+        <div id="substract" (click)="onOperator('-')" class="yellow">-</div>
+      </div>
+      <div class="row">
+        <div id="one" (click)="onDigitClick('1')" class="feat">1</div>
+        <div id="two" (click)="onDigitClick('2')" class="feat">2</div>
+        <div id="three" (click)="onDigitClick('3')" class="feat">3</div>
+        <div id="Add" (click)="onOperator('+')" class="yellow">+</div>
+      </div>
+      <div class="row">
+        <div id="zero" (click)="onDigitClick('0')" class="zero">0</div>
+        <div id="dot" (click)="onDigitClick('.')" class="feat">.</div>
+        <div id="=" (click)="onOperator('')" class="yellow">=</div>
+      </div>
+    </div>
+  </div>
+</div>
